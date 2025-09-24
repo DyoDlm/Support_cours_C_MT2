@@ -1,90 +1,119 @@
-Salutation jeune padawan !
+# Bienvenue jeunes padawans !
 
-Voici quelques points important concernant l'installation :
-    
-    1) Si vous etes sur github, entrer dans votre terminal :
+Ce depot contient le support de cours et quelques outils pour vous accompagner dans vos exercices en C.  
+Voici les etapes essentielles pour bien demarrer :
 
-        git clone https://github.com/DyoDlm/Support_cours_C_MT2.git
+---
 
-    ou si vous avez configure votre clef ssh :
- 
-        git clone git@github.com:DyoDlm/Support_cours_C_MT2.git
-    
+## Table des matieres
 
-    2) Une fois la premiere etape realisee ou si un tiers vous a fournit le dossier,
-    rendez le script install.sh (si sur linux) ou install.ps1 (si sur Windows) executable :
-        
-        chmod 666 [install.(sh ou ps1)]
+- [Avant de commencer](#avant-de-commencer)
+- [Installation](#installation)
+- [Conseils pedagogiques](#conseils-pedagogiques)
+- [Execution d un programme en C](#execution-d-un-programme-en-c)
+- [Utilisation des outils installes](#utilisation-des-outils-installes)
+- [Commandes de base a connaitre dans le terminal](#commandes-de-base-a-connaitre-dans-le-terminal)
+- [Et pour la suite](#et-pour-la-suite)
 
-    Ce script va vous installer github et vous assister pour la configuration de ce dernier.
+---
 
-    Cela vous permettra d'installer la mini-moulinette (programme pour verifier vos exercices)
-    et la norminette (pour coder avec un max de style)***
+## Avant de commencer
 
-    
-    3) Je n'ai pas trouve de troisieme point important...
+Avant de cloner le depot et d installer les outils, assurez-vous d avoir :  
+
+- **Git** installe sur votre machine (verifiez avec `git --version`).  
+- **Un compilateur C** (exemple : `gcc` ou `clang`).  
+- **Un terminal** (Linux, macOS ou PowerShell sous Windows).  
+
+Ces pre-requis sont indispensables pour pouvoir compiler et tester vos programmes.  
+
+---
+
+## Installation
+
+1. **Cloner le depot**
+
+   Si vous utilisez HTTPS :  
+   ```bash
+   git clone https://github.com/DyoDlm/Support_cours_C_MT2.git
+Si vous avez configure une cle SSH :
+
+bash
+Copy code
+git clone git@github.com:DyoDlm/Support_cours_C_MT2.git
+Lancer le script d installation
+Une fois le dossier telecharge (ou transmis par un camarade), rendez le script executable :
+
+Sous Linux :
+
+bash
+Copy code
+chmod +x install.sh
+./install.sh
+Sous Windows (PowerShell) :
+
+powershell
+Copy code
+./install.ps1
+Ce script installera Git, configurera votre environnement, et ajoutera :
+
+La mini-moulinette (outil pour verifier vos exercices).
+
+La norminette (votre guide pour coder proprement).
+
+Conseils pedagogiques
+Testez vos programmes regulierement (utilisez un main).
+
+Lisez la documentation (manuels GNU, man pages...). Cela prend plus de temps qu un LLM, mais vous retiendrez mieux.
+
+Perseverez. La gestion des erreurs, c est 90 % du travail d un developpeur.
+
+Trouvez vos propres reperes et methodes de travail.
+
+Execution d un programme en C
+Choisissez un compilateur : clang, gcc...
+
+Assurez-vous d avoir une fonction d entree (int main()).
+
+Compilez :
+
+bash
+Copy code
+gcc main.c file1.c file2.c -o MonProgramme
+Executez :
+
+bash
+Copy code
+./MonProgramme
+Si ca ne fonctionne pas... cherchez, testez, experimentez !
+
+Utilisation des outils installes
+Mini-moulinette
+Dans le repertoire correspondant a un exercice (ex : C00, C01, ...) :
+
+bash
+Copy code
+mini C00
+Norminette
+Dans le dossier de vos fichiers C :
+
+bash
+Copy code
+norminette mon_fichier.c
+Commandes de base a connaitre dans le terminal
+ls : lister les fichiers/dossiers.
+
+cd : changer de dossier (cd Documents).
+
+cat : afficher le contenu d un fichier.
+
+nano : editer un fichier texte.
+
+Et pour la suite
+Experimentez, reflechissez, osez tricher intelligemment ;).
+
+Vous pouvez proposer des ameliorations en ouvrant une pull request.
+
+De nouvelles ressources et conseils seront ajoutes au fur et a mesure.
 
 
-    *** CONCERNANT LE STYLE ***
-
-Si vous ecriver du code sexy, plus de personnes vont vouloir vous aider...
-Ne pas hesiter a consulter la rubrique "coding style" chez GNU
-Voila.
-
-    
-    *** En termes pedagogiques, quelques conseils ***
-
-A)  Faites vos tests (mains)
-
-B)  Lisez le man GNU. Documenter vous bien ! Bien avant de demander a un LLM...
-        --> on va moins vite, mais on apprend mieux
-
-C)  Perseverer. Gerer les erreurs c'est 90% du temps qu'on passe a coder
-
-D)  Trouver vos lignes directrices x0x0
-
-
-
-
-    *** comment executer votre code ***
-
--   Choisissez clang ou gcc (ou d'autres anyway)
-
--   il doit y avoir un point d'entree dans un de vos fichiers (int  main())
-
--   effectuer : gcc main.c file1.c file2.c -o NomDuProgramme
-
--   executer : ./NomDuProgramme
-
--   Et si ca ne marche pas, trouvez la solution !
-
-
-
-
-    *** Comment utiliser les outils telecharges ***
-
--   Le correcteur automatique --> aller dans le repertoire Cxx et taper la commande :
-        mini Cxx    (c'est mini C00 si dans C00 et mini C01 si dans C01, etc)
-
--   La norminette --> aller dans le repertoire ou se trouve votre fichier et :
-        norminette mon_fichier
-
-
-Il est semblable que ca soit dur de tester si vous bossez pas sur un terminal...
-Donc voila les commandes de bases pour survivre :
-
-    -   ls (permet de lister les fichiers et dossiers dans le repertoire courant)
-    -   cd (permet de changer de repertoire || ex : cd Documents --> on va dans documents)
-    -   cat (affiche le contenu d'un fichier)
-    -   nano (un editeur de texte pour bosser sur vos fichiers)
-
-
-Pour le reste, reflechissez, trichez, mangez ou faites des back-flips... Demerdez-vous <3
-
-
-Pour ameliorer le repo, ne pas hesiter a faire des pull-requests
-
-J'ajouterai conseils, sources et nouvelles methodes au fur et a mesure, mais l'essentiel est la !
-
-
-Good luck
