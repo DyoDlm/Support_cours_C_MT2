@@ -1,10 +1,7 @@
 Salutation jeune padawan !
 
-    ###########################################
 
-#################################
 #   Concerant l'installation    #
-#################################
 
 Voici quelques points important concernant l'installation :
     
@@ -30,13 +27,9 @@ Voici quelques points important concernant l'installation :
     
     3) Je n'ai pas trouve de troisieme point important...
 
-    ##########################################
 
-    ##########################################
 
-#############################
-#   CONCERNANT LE STYLE *** #
-#############################
+#   CONCERNANT LE STYLE  #
 
 Si vous ecriver du code sexy (et utile), + de personnes vont vouloir vous aider...
 
@@ -45,13 +38,9 @@ Ne pas hesiter a consulter la rubrique "coding style" chez GNU
 Citation de Richar Stallam :
    Le style est style, ah, oui oui
 
-    ##########################################
 
-    ##########################################
 
-#################################################
 #   En termes pedagogiques, quelques conseilsi  #
-#################################################
 
     A)  Faites vos tests (mains)
 
@@ -62,15 +51,11 @@ Citation de Richar Stallam :
 
     D)  Trouver vos lignes directrices x0x0
 
-    ##########################################
 
-    ##########################################
 
-#####################################
 #   comment executer votre code     #
-#####################################
 
--   Choisissez clang ou gcc (ou d'autres anyway)
+-   Choisir son compilateur (clang, gcc ou autre)
 
 -   il doit y avoir un point d'entree dans un de vos fichiers (int  main())
 
@@ -80,13 +65,9 @@ Citation de Richar Stallam :
 
 -   Et si ca ne marche pas, trouvez la solution !
 
-    #########################################
 
-    #########################################
 
-#################################################
 #   Comment utiliser les outils telecharges     #
-#################################################
 
 -   Le correcteur automatique --> aller dans le repertoire Cxx et taper la commande :
         mini Cxx    (c'est mini C00 si dans C00 et mini C01 si dans C01, etc)
@@ -94,10 +75,8 @@ Citation de Richar Stallam :
 -   La norminette --> aller dans le repertoire ou se trouve votre fichier et :
         norminette mon_fichier
 
-    ##########################################
 
-    ##########################################
-
+#   Quelques commandes Utiles
 Il est semblable que ca soit dur de tester si vous bossez pas sur un terminal...
 Donc voila les commandes de bases pour survivre :
 
@@ -109,8 +88,8 @@ Donc voila les commandes de bases pour survivre :
 
 Pour le reste, Au nom d'Odin ! Non d'une pipe! Reflechissez !
 
-    #######################################
 
+--------------------------------------------------------------------------
 
 Pour ameliorer le repo, ne pas hesiter a faire des pull-requests
 
