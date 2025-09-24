@@ -1,6 +1,6 @@
 Salutation jeune padawan !
 
-    ################################################
+    ###########################################
 
 #################################
 #   Concerant l'installation    #
@@ -30,9 +30,9 @@ Voici quelques points important concernant l'installation :
     
     3) Je n'ai pas trouve de troisieme point important...
 
-    ################################################
+    ##########################################
 
-    ################################################
+    ##########################################
 
 #############################
 #   CONCERNANT LE STYLE *** #
@@ -42,13 +42,12 @@ Si vous ecriver du code sexy (et utile), + de personnes vont vouloir vous aider.
 
 Ne pas hesiter a consulter la rubrique "coding style" chez GNU
 
-#####################
-#   Waa le Style !  #
-#####################
+Citation de Richar Stallam :
+   Le style est style, ah, oui oui
 
-    ################################################
+    ##########################################
 
-    ################################################
+    ##########################################
 
 #################################################
 #   En termes pedagogiques, quelques conseilsi  #
@@ -63,9 +62,9 @@ Ne pas hesiter a consulter la rubrique "coding style" chez GNU
 
     D)  Trouver vos lignes directrices x0x0
 
-    ################################################
+    ##########################################
 
-    ################################################
+    ##########################################
 
 #####################################
 #   comment executer votre code     #
@@ -81,9 +80,9 @@ Ne pas hesiter a consulter la rubrique "coding style" chez GNU
 
 -   Et si ca ne marche pas, trouvez la solution !
 
-    ################################################
+    #########################################
 
-    ################################################
+    #########################################
 
 #################################################
 #   Comment utiliser les outils telecharges     #
@@ -95,9 +94,9 @@ Ne pas hesiter a consulter la rubrique "coding style" chez GNU
 -   La norminette --> aller dans le repertoire ou se trouve votre fichier et :
         norminette mon_fichier
 
-    ################################################
+    ##########################################
 
-    ################################################
+    ##########################################
 
 Il est semblable que ca soit dur de tester si vous bossez pas sur un terminal...
 Donc voila les commandes de bases pour survivre :
@@ -110,7 +109,7 @@ Donc voila les commandes de bases pour survivre :
 
 Pour le reste, Au nom d'Odin ! Non d'une pipe! Reflechissez !
 
-    ################################################
+    #######################################
 
 
 Pour ameliorer le repo, ne pas hesiter a faire des pull-requests
