@@ -16,7 +16,7 @@ Voici quelques points important concernant l'installation :
         
         chmod 666 [install.(sh ou ps1)]
 
-    Ce script va vous installer github et vous assister a la configuration de ce dernier.
+    Ce script va vous installer github et vous assister pour la configuration de ce dernier.
 
     Cela vous permettra d'installer la mini-moulinette (programme pour verifier vos exercices)
     et la norminette (pour coder avec un max de style)***
@@ -57,6 +57,29 @@ D)  Trouver vos lignes directrices x0x0
 -   executer : ./NomDuProgramme
 
 -   Et si ca ne marche pas, trouvez la solution !
+
+
+
+
+    *** Comment utiliser les outils telecharges ***
+
+-   Le correcteur automatique --> aller dans le repertoire Cxx et taper la commande :
+        mini Cxx    (c'est mini C00 si dans C00 et mini C01 si dans C01, etc)
+
+-   La norminette --> aller dans le repertoire ou se trouve votre fichier et :
+        norminette mon_fichier
+
+
+Il est semblable que ca soit dur de tester si vous bossez pas sur un terminal...
+Donc voila les commandes de bases pour survivre :
+
+    -   ls (permet de lister les fichiers et dossiers dans le repertoire courant)
+    -   cd (permet de changer de repertoire || ex : cd Documents --> on va dans documents)
+    -   cat (affiche le contenu d'un fichier)
+    -   nano (un editeur de texte pour bosser sur vos fichiers)
+
+
+Pour le reste, reflechissez, trichez, mangez ou faites des back-flips... Demerdez-vous <3
 
 
 Pour ameliorer le repo, ne pas hesiter a faire des pull-requests
