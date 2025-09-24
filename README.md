@@ -31,6 +31,33 @@ Si vous ecriver du code sexy, plus de personnes vont vouloir vous aider...
 Ne pas hesiter a consulter la rubrique "coding style" chez GNU
 Voila.
 
+    
+    *** En termes pedagogiques, quelques conseils ***
+
+A)  Faites vos tests (mains)
+
+B)  Lisez le man GNU. Documenter vous bien ! Bien avant de demander a un LLM...
+        --> on va moins vite, mais on apprend mieux
+
+C)  Perseverer. Gerer les erreurs c'est 90% du temps qu'on passe a coder
+
+D)  Trouver vos lignes directrices x0x0
+
+
+
+
+    *** comment executer votre code ***
+
+-   Choisissez clang ou gcc (ou d'autres anyway)
+
+-   il doit y avoir un point d'entree dans un de vos fichiers (int  main())
+
+-   effectuer : gcc main.c file1.c file2.c -o NomDuProgramme
+
+-   executer : ./NomDuProgramme
+
+-   Et si ca ne marche pas, trouvez la solution !
+
 
 Pour ameliorer le repo, ne pas hesiter a faire des pull-requests
 
