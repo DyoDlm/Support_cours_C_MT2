@@ -19,6 +19,16 @@ Voici quelques points important concernant l'installation :
         
         chmod 666 [install.(sh ou ps1)]
 
+    puis :
+        
+        ./install.sh
+
+    sous linux ou 
+
+        ./install.ps1
+
+    sur windows.
+
     Ce script va vous installer github et vous assister pour la configuration de ce dernier.
 
     Cela vous permettra d'installer la mini-moulinette (programme pour verifier vos exercices)
