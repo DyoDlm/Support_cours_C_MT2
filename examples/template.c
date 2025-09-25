@@ -7,7 +7,7 @@
 
 	//	--	Conseils	--	//
 
-	* 1) Ecrire les fonctions par ordre de dependance :
+	* 1) Placer les fonctions par ordre de dependance :
 	*	c'est a dire 
 	*		==> 1) f1 / pas de dependance
 	*		    2) f2 / depend de f1
@@ -26,8 +26,13 @@
 #define BONJOUR 1
 #define AUREVOIR 0
 
-//	c'est des macros (inchangeables le long du programme)
+//	ce sont des macros (inchangeables le long du programme)
 
+#define FOO "bla bla bla bla"
+//	autre exemple
+//	ou encore
+#define IF if
+#define ELSE else
 
 
 //	dire bonjour
