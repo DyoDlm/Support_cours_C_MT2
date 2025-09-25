@@ -1,0 +1,28 @@
+Sources de documentation a chercher par ordre hierarchique
+
+
+-	GNU manual / linux man cmd
+
+-	Stack overflow
+
+-	GitHub (ne pas copier sans referencer !)
+
+-	w3 schoil C reference
+
+-	tutorialspoint
+
+-	GeeksForGeeks
+
+-	Medium
+
+-	Redit
+
+-	Ses collegues
+
+-	Herve Eusebe
+
+-	Apertus
+
+-	Your choice 
+
+La liste n'est evidemment pas exhaustive (vous etes libres de proceder comme vous le voulez)
