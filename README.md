@@ -85,6 +85,11 @@ Citation de Richar Stallam :
 -   La norminette --> aller dans le repertoire ou se trouve votre fichier et :
         norminette mon_fichier
 
+Pour plus d'informations, visitez les liens suivants :
+
+mini-moulinette --> https://github.com/k11q/mini-moulinette
+
+norminette      --> https://github.com/42school/norminette
 
 #   Quelques commandes Utiles
 Il est semblable que ca soit dur de tester si vous bossez pas sur un terminal...
