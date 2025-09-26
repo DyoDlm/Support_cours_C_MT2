@@ -71,7 +71,13 @@ Citation de Richar Stallam :
 
 -   effectuer : gcc main.c file1.c file2.c -o NomDuProgramme
 
+        sur Windows, installez Vs Code et les extensions C et C++
+
 -   executer : ./NomDuProgramme
+
+    ou
+        
+        cliquer sur le .exe sur windows
 
 -   Et si ca ne marche pas, trouvez la solution !
 
